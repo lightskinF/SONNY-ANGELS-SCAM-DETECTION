@@ -1,0 +1,120 @@
+2025-02-11 00:36:49,979 - INFO - Fetching catalog page: 1
+2025-02-11 00:44:34,990 - INFO - Fetching catalog page: 1
+2025-02-11 00:44:35,379 - INFO - Page 1: 22 items found.
+2025-02-11 00:44:38,702 - INFO - Fetching catalog page: 2
+2025-02-11 00:44:39,025 - INFO - No items found in catalog data for page 2.
+2025-02-11 00:44:39,966 - WARNING - City not found for user 35314098
+2025-02-11 00:44:48,532 - WARNING - City not found for user 59809864
+2025-02-11 00:44:59,999 - WARNING - City not found for user 74452065
+2025-02-11 00:45:08,027 - WARNING - City not found for user 32678713
+2025-02-11 00:45:16,687 - WARNING - City not found for user 31331303
+2025-02-11 00:46:28,008 - INFO - Fetching catalog page: 1
+2025-02-11 00:46:28,373 - INFO - Page 1: 22 items found.
+2025-02-11 00:46:30,972 - INFO - Fetching catalog page: 2
+2025-02-11 00:46:31,255 - INFO - No items found in catalog data for page 2.
+2025-02-11 00:46:32,124 - WARNING - City not found for user 35314098
+2025-02-11 00:46:42,263 - WARNING - City not found for user 59809864
+2025-02-11 00:46:49,455 - WARNING - City not found for user 74452065
+2025-02-11 00:46:59,348 - WARNING - City not found for user 32678713
+2025-02-11 00:47:09,039 - WARNING - City not found for user 31331303
+2025-02-11 00:47:16,842 - WARNING - City not found for user 137761449
+2025-02-11 00:47:27,596 - WARNING - City not found for user 37044625
+2025-02-11 00:47:34,078 - WARNING - City not found for user 126685022
+2025-02-11 00:47:42,721 - WARNING - City not found for user 40045334
+2025-02-11 00:47:53,008 - WARNING - City not found for user 146328991
+2025-02-11 00:48:00,152 - WARNING - City not found for user 38951541
+2025-02-11 00:48:08,886 - WARNING - City not found for user 26579237
+2025-02-11 00:50:38,688 - INFO - Fetching catalog page: 1
+2025-02-11 00:50:38,841 - ERROR - Error during catalog request (page 1, attempt 1): 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?page=1&per_page=96&search_text=sonny%2Bangels&price_from=0.0&price_to=1.0&currency=EUR
+2025-02-11 00:50:48,976 - ERROR - Error during catalog request (page 1, attempt 2): 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?page=1&per_page=96&search_text=sonny%2Bangels&price_from=0.0&price_to=1.0&currency=EUR
+2025-02-11 00:50:59,139 - ERROR - Error during catalog request (page 1, attempt 3): 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?page=1&per_page=96&search_text=sonny%2Bangels&price_from=0.0&price_to=1.0&currency=EUR
+2025-02-11 00:51:09,329 - ERROR - Error during catalog request (page 1, attempt 4): 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?page=1&per_page=96&search_text=sonny%2Bangels&price_from=0.0&price_to=1.0&currency=EUR
+2025-02-11 00:51:19,472 - ERROR - Error during catalog request (page 1, attempt 5): 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?page=1&per_page=96&search_text=sonny%2Bangels&price_from=0.0&price_to=1.0&currency=EUR
+2025-02-11 00:51:29,473 - ERROR - Failed to get catalog page 1 after 5 retries. Stopping...
+2025-02-11 00:52:27,374 - INFO - Fetching catalog page: 1
+2025-02-11 00:52:27,810 - INFO - Page 1: 22 items found.
+2025-02-11 00:52:31,129 - WARNING - City not found for user 35314098
+2025-02-11 00:52:41,261 - WARNING - City not found for user 59809864
+2025-02-11 00:52:48,303 - WARNING - City not found for user 74452065
+2025-02-11 00:52:54,620 - WARNING - City not found for user 32678713
+2025-02-11 00:53:00,952 - WARNING - City not found for user 31331303
+2025-02-11 00:53:10,163 - WARNING - City not found for user 137761449
+2025-02-11 00:53:19,472 - WARNING - City not found for user 37044625
+2025-02-11 00:53:29,808 - WARNING - City not found for user 126685022
+2025-02-11 00:53:40,360 - WARNING - City not found for user 40045334
+2025-02-11 00:53:49,420 - WARNING - City not found for user 146328991
+2025-02-11 00:53:59,461 - WARNING - City not found for user 38951541
+2025-02-11 00:54:07,933 - WARNING - City not found for user 26579237
+2025-02-14 20:59:02,872 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=0&price_to=1&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739563142707
+2025-02-14 20:59:02,942 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=1&price_to=2&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739563142874
+2025-02-14 20:59:03,011 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=2&price_to=3&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739563142942
+2025-02-14 20:59:03,080 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=3&price_to=4&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739563143011
+2025-02-14 20:59:03,149 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=4&price_to=5&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739563143080
+2025-02-14 21:18:30,515 - ERROR - Request failed: 500 Server Error: Internal Server Error for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=0&price_to=1&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739564310311
+2025-02-14 21:18:38,220 - ERROR - Request failed: 500 Server Error: Internal Server Error for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=1&price_to=2&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739564318055
+2025-02-14 21:18:46,019 - ERROR - Request failed: 500 Server Error: Internal Server Error for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=2&price_to=3&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739564325869
+2025-02-14 21:18:52,046 - ERROR - Request failed: 500 Server Error: Internal Server Error for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=3&price_to=4&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739564331912
+2025-02-14 21:18:57,719 - ERROR - Request failed: 500 Server Error: Internal Server Error for url: https://www.vinted.it/api/v2/catalog/items?search_text=sonny+angels&price_from=4&price_to=5&currency=EUR&order=newest_first&page=1&per_page=96&status_ids=6&time=1739564337519
+2025-02-14 21:37:35,353 - DEBUG - Starting new HTTPS connection (1): www.vinted.it:443
+2025-02-14 21:37:35,533 - DEBUG - https://www.vinted.it:443 "GET / HTTP/1.1" 403 None
+2025-02-14 21:37:35,850 - DEBUG - https://www.vinted.it:443 "GET /api/v2/users/me HTTP/1.1" 404 None
+2025-02-14 21:37:35,852 - DEBUG - Request to: https://www.vinted.it/api/v2/users/me
+2025-02-14 21:37:35,852 - DEBUG - Status code: 404
+2025-02-14 21:37:35,853 - ERROR - HTTP Error: 404 - {"code":104,"message":"Contenuto non trovato","message_code":"not_found"}
+2025-02-14 21:37:35,853 - CRITICAL - Critical error: Invalid cookies or authentication failed
+2025-02-14 21:52:52,771 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/129969021
+2025-02-14 21:52:53,938 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/129969021
+2025-02-14 21:52:56,370 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/129969021
+2025-02-14 21:53:56,349 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/23223344
+2025-02-14 21:53:57,456 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/23223344
+2025-02-14 21:54:55,063 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/41561471
+2025-02-14 21:54:56,616 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/41561471
+2025-02-14 21:54:58,818 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/41561471
+2025-02-14 21:56:54,765 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/31147505
+2025-02-14 21:56:55,987 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/31147505
+2025-02-14 21:56:58,168 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/31147505
+2025-02-14 21:57:57,447 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/53934022
+2025-02-14 21:57:58,587 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/53934022
+2025-02-14 21:58:53,721 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/22459282
+2025-02-14 21:58:54,874 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/22459282
+2025-02-14 21:58:57,066 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/22459282
+2025-02-14 21:59:57,837 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/235439150
+2025-02-14 21:59:59,008 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/235439150
+2025-02-14 22:00:53,516 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/116892991
+2025-02-14 22:00:54,685 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/116892991
+2025-02-14 22:00:56,833 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/116892991
+2025-02-14 22:01:57,122 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/31533932
+2025-02-14 22:01:58,312 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/31533932
+2025-02-14 22:02:52,989 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/252209855
+2025-02-14 22:02:54,127 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/252209855
+2025-02-14 22:02:56,305 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/252209855
+2025-02-14 22:03:56,337 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/82994929
+2025-02-14 22:03:57,494 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/82994929
+2025-02-14 22:03:59,642 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/82994929
+2025-02-14 22:05:58,433 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/254437449
+2025-02-14 22:05:59,543 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/254437449
+2025-02-14 22:06:54,426 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/28475895
+2025-02-14 22:06:56,684 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/28475895
+2025-02-14 22:06:58,838 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/28475895
+2025-02-14 22:08:54,113 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/77446194
+2025-02-14 22:08:55,266 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/77446194
+2025-02-14 22:08:57,402 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/77446194
+2025-02-14 22:09:58,984 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/207489947
+2025-02-14 22:10:54,124 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/162909291
+2025-02-14 22:10:55,254 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/162909291
+2025-02-14 22:10:57,384 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/162909291
+2025-02-14 22:11:57,474 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/140467887
+2025-02-14 22:11:58,804 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/140467887
+2025-02-14 22:12:56,814 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/61235026
+2025-02-14 22:12:57,918 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/61235026
+2025-02-14 22:13:52,817 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/54426053
+2025-02-14 22:13:53,942 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/54426053
+2025-02-14 22:13:56,028 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/54426053
+2025-02-14 22:14:58,129 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/68581595
+2025-02-14 22:14:59,251 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/68581595
+2025-02-14 22:15:54,360 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/18022471
+2025-02-14 22:15:55,453 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/18022471
+2025-02-14 22:15:57,661 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/18022471
+2025-02-14 22:16:55,989 - WARNING - Request failed (attempt 1): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/99937020
+2025-02-14 22:16:57,098 - WARNING - Request failed (attempt 2): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/99937020
+2025-02-14 22:16:59,225 - WARNING - Request failed (attempt 3): 429 Client Error: Too Many Requests for url: https://www.vinted.it/api/v2/users/99937020
