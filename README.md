@@ -45,6 +45,8 @@ For potential scammers, a more aggressive strategy was used to identify sellers 
 
 The folder `PROCESSO_SCRAPING` contains scripts and documentation detailing the scraping pipeline.
 
+In particular `SCRIPT_POTENZIALI_SCAMMER.py` and `SCRIPT_POTENZIALI_NON_SCAMMER.py` are the Python source codes to obtain, respectively, potential **scammers** and potential **trustable** sellers, for our final dataset.
+
 ---
 
 ## Ground Truth Construction
