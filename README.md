@@ -1,4 +1,8 @@
 # SONNY ANGELS SCAM DETECTION
+![Model evaluation results](TEST_RESULTS.png)
+
+*Example of model evaluation results.*
+
 
 🇬🇧 **English version (recommended)**
 
