@@ -65,7 +65,7 @@ While intentionally simple, the model prioritizes:
 - robustness,
 - conservative decision-making in borderline cases.
 
-The trained model implementation is available in the main `.py` file.
+The trained model implementation is available in the  `final_machine_learning_model.py` file.
 
 ---
 
