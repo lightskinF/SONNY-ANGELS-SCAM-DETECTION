@@ -104,8 +104,8 @@ Instead of forcing a potentially incorrect classification, the model defers thes
 ## Documentation
 
 A detailed technical report describing data collection, feature engineering, heuristics, and model design is available in the PDF file:  
-**SONNYANGEL_SCAM_DETECTION.pdf** (Note: the PDF was not originally intended for public or academic dissemination. 
-It was initially written as a personal technical report to document and recall this experimental approach. In fact, I still rather use HTTP requests automation than the Python library BeatifulSoup.
+**SONNYANGEL_SCAM_DETECTION.pdf** (Note: the PDF was not originally intended for public or academic dissemination and is written in italian. 
+It was initially prepared as a personal technical report to document and revisit this experimental approach, allowing me to recall and reuse some techiniques for potential future projects. In fact, I still rather using automated HTTP requests over the Python library BeatifulSoup for Web Scraping.
 The document therefore adopts a more informal and exploratory tone, while still describing the full technical process).
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
