@@ -1,5 +1,5 @@
 # SONNY ANGELS SCAM DETECTION
-![Model evaluation results](TEST_RESULTS.png)
+![Model evaluation results](RISULTATI_06_01_2026.png)
 
 *Example of model evaluation results.*
 
