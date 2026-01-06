@@ -187,23 +187,23 @@ def evaluate_model_with_split(include_real_samples=True):
         real_samples = pd.DataFrame({
             'avg_price': [
                 3.00,    # Scammer verificato - prezzo molto basso, nuovo con scatola, sigillati
-                38.50,   # Legittimo verificato - prezzo normale, usato; in particolare era un collezionista con due pezzi a 110
+                38.50,   # Legit verificato - prezzo normale, usato; in particolare era un collezionista con due pezzi a 110
                 2.50,    # Scammer verificato - prezzo basso, nuovo e sigillato
-                30.00,   # Legittimo verificato - prezzo medio, usato, altro collezionista
+                30.00,   # Legit verificato - prezzo medio, usato, altro collezionista
                 7.99,    # Scammer verificato - prezzo borderline ma nuovo
-                120.00,  # Legittimo verificato - prezzo alto, usato, pochi pezzi ma molto expensive
+                120.00,  # Legit verificato - prezzo alto, usato, pochi pezzi ma molto expensive
                 4.00,    # Scammer verificato - prezzo molto basso, nuovo, tantissimi allo stesso prezzo
-                90.00    # Legittimo verificato - prezzo alto, usato
+                90.00    # Legit verificato - prezzo alto, usato
             ],
             'is_new': [
                 True,   # Scammer
-                False,  # Legittimo
+                False,  # Legit
                 True,   # Scammer
-                False,  # Legittimo
+                False,  # Legit
                 True,   # Scammer
-                False,  # Legittimo
+                False,  # Legit
                 True,   # Scammer
-                False   # Legittimo
+                False   # Legit
             ],
             'is_scammer': [1, 0, 1, 0, 1, 0, 1, 0]          #label, i campioni sopra sono tutti etichettati, questi aggiunti ai casi sintetici. Generalmente corrisponde all'ultima colonna nelle tabelle, dove appunto c'è la label dei rispettivi campioni per l'addestramento
         })
@@ -272,14 +272,14 @@ def plot_results(detector, X_test, y_test, predictions, confidences):
     sns.boxplot(x=y_test, y=X_test['avg_price'])
     plt.axhline(y=5, color='r', linestyle='--', alpha=0.5)
     plt.axhline(y=13, color='r', linestyle='--', alpha=0.5)
-    plt.xlabel('Categoria (0=Legitimo, 1=Scammer)')
+    plt.xlabel('Categoria (0=Legittimo, 1=Scammer)')
     plt.ylabel('Prezzo')
     plt.title('Distribuzione dei Prezzi per Categoria')
     
     # Subplot 4: Stato nuovo/usato per categoria
     plt.subplot(2, 2, 4)
     data = pd.DataFrame({
-        'Categoria': ['Scammer', 'Scammer', 'Legitimo', 'Legitimo'],
+        'Categoria': ['Scammer', 'Scammer', 'Legittimo', 'Legittimo'],
         'Stato': ['Nuovo', 'Usato', 'Nuovo', 'Usato'],
         'Conteggio': [
             sum((y_test == 1) & (X_test['is_new'])),
