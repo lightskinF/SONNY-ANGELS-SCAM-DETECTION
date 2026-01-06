@@ -325,9 +325,9 @@ if __name__ == "__main__":
     real_test_cases = {
         'avg_price': [                          #fase INFERENZA: confronti le predizioni con le ground truth e vedi se matchano!
             4.50,    # scammer
-            199.99,  # legittimo            in particolare "cat life series" modello raro da collezione
+            199.99,  # legit            in particolare "cat life series" modello raro da collezione
             8.99,    # Caso borderline
-            25.00    # legittimo
+            25.00    # legit
         ],
         'is_new': [
             True,    # Nuovo a prezzo bassissimo
