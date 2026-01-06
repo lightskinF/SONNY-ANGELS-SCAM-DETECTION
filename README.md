@@ -47,6 +47,9 @@ The folder `PROCESSO_SCRAPING` contains scripts and documentation detailing the 
 
 In particular `SCRIPT_POTENZIALI_SCAMMER.py` and `SCRIPT_POTENZIALI_NON_SCAMMER.py` are the Python source codes to obtain, respectively, potential **scammers** and potential **trustable** sellers, for our final dataset.
 
+NOTE: Sequential requests to JSON API endpoints were used, introducing deliberate delays between calls to avoid rate-limiting and anti-bot restrictions. For the same reasons **parallelization (like using more threads) was intentionally avoided**. 
+This results in **longer execution time** but ensures a **safe and reliable automation**.
+
 ---
 
 ## Ground Truth Construction
@@ -133,7 +136,9 @@ Nel PDF “SONNY_ANGELS_SCAM_DETECTION” è descritto l’intero processo, end 
 Il modello utilizzato non è tra i più comuni: si tratta di un approccio ibrido, ispirato a un modello rule-based simile a un 1R, nato come compromesso tra semplicità, interpretabilità e i limiti imposti dai dati disponibili. Nel PDF sono discusse anche le difficoltà incontrate e le valutazioni fatte durante lo sviluppo.
 
 Nel file con estensione .py è presente il modello addestrato sui dati raccolti.
-All’interno della cartella “PROCESSO_SCRAPING” è invece documentato nel dettaglio il processo di scraping, incluso lo script utilizzato per raccogliere gli utenti potenzialmente NON_SCAMMER.
+All’interno della cartella “PROCESSO_SCRAPING” è invece documentato nel dettaglio il processo di scraping, incluso lo script utilizzato per raccogliere gli utenti potenzialmente NON_SCAMMER e potenzialmente SCAMMER.
+
+NB:La parallelizzazione delle richieste HTTP è stata valutata ma scartata, poiché la piattaforma target implementa meccanismi di rate-limiting e anti-bot detection. Un approccio sequenziale con delay randomizzato garantisce maggiore stabilità e riproducibilità, riducendo il rischio di blocco dell’IP o di invalidazione dei cookie di sessione. Questo comporta tuttavia tempi di esecuzione più lunghi, come osservabile eseguendo lo script. Si tratta di un trade-off progettuale consapevole, in cui sono stati privilegiati affidabilità e sicurezza dell’automazione.
 
 Per lo script relativo allo scraping dei potenziali SCAMMER il ragionamento alla base è simile, ma include ulteriori accorgimenti:
 
