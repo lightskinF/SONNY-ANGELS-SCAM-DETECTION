@@ -122,7 +122,7 @@ Nel periodo di forte diffusione dei Sonny Angels, venni quasi casualmente a cono
 
 Durante l’analisi delle API di Vinted e la fase di brainstorming sullo scraping, riguardo ad un particolare ostacolo, è emersa un’analogia con un concetto visto in Fondamenti di Misure: il funzionamento del **voltmetro**. L’idea è stata quella di prendere un intervallo più ampio (range prezzi) e suddividerlo in sotto-intervalli più piccoli, effettuando richieste automatiche su ciascuno di essi. Questo approccio ha permesso di aggirare parzialmente il rate limit imposto dal server di Vinted, adottando una **strategia non convenzionale ma efficace dal punto di vista sperimentale**.
 
-Nel PDF “SONNY_ANGELS_SCAM_DETECTION” è descritto l’intero processo:
+Nel PDF “SONNY_ANGELS_SCAM_DETECTION” è descritto l’intero processo, end to end:
 
   - web scraping per la raccolta dei dati
 
